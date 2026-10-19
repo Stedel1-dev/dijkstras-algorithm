@@ -99,7 +99,7 @@ def shortest_path(startNode, endNode):
                smallestWorkingValue_graph = next(iter(visitedNodes.values()))[0][1] # First working value of the first visited node
                for visitedNode in visitedNodes:
                   
-                  smallestWorkingValue_node =  # Looks up the smallest workingValue in each node
+                  smallestWorkingValue_node =                    # Looks up the smallest workingValue in each node
                   if smallestWorkingValue_node < smallestWorkingValue_graph: # Finds smallest workingValue of a node
                      smallestWorkingValue_graph = smallestWorkingValue_node
                      focusNode = visitedNode
